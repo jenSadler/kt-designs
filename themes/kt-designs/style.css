@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*
+Theme Name: KT Designs
+Author: Jen Sadler
+*/
+
+.wp-block-column .wp-block-image {
+	width: 100%;
+	height: 100%;
+}
+
+.wp-block-column .wp-block-image img{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+}
+
+.sidebar .wp-block-image img{
+	border:1px solid black;
+	border-radius:50% !important;
+	padding:10px;
+}
+
+header {
+	display: flex;
+}
+.holdLogo {
+	flex-grow: 1;
+}
+body {
+	padding: 20px 50px 50px 20px;
+}
+
+#primary {
+	display: flex;
+}
+.sidebar {
+	min-width: 250px;
+	display:flex;
+	flex-direction:column;
+}
+
+.spacer{
+	flex-grow:1;
+}
+
+.sidebar-content {
+	display: flex;
+}
+
+
+.sidebar-image-widget {
+	display: flex;
+	flex-direction: column;
+}
+.sidebar-image-widget-item {
+	flex: 1;
+}
